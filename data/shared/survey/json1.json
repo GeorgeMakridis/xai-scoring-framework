@@ -1,0 +1,79 @@
+{
+  "xai_method_descriptions": {
+    "SHAP": "SHAP (SHapley Additive exPlanations) calculates feature importance by examining how each feature affects the model's prediction.",
+    "LIME": "LIME (Local Interpretable Model-agnostic Explanations) builds a simpler model around a specific prediction to explain it.",
+    "PFI": "PFI (Permutation Feature Importance) works by randomly shuffling a feature and measuring the decrease in model performance.",
+    "PDP": "PDP (Partial Dependence Plots) shows the marginal effect of a feature on the predicted outcome.",
+    "GradCAM": "GradCAM visualizes class-discriminative regions by combining gradients with feature maps.",
+    "GradCAM_pp": "GradCAM++ improves GradCAM with better localization and multi-object handling.",
+    "Integrated_Gradients": "Integrated Gradients attributes predictions by integrating gradients along a path from baseline to input.",
+    "SmoothGrad": "SmoothGrad reduces noise in saliency maps by averaging gradients over noisy inputs.",
+    "LIME_Image": "LIME for images explains by perturbing superpixels and fitting a local linear model.",
+    "SHAP_Image": "SHAP applied to image inputs for pixel-wise importance attribution.",
+    "Saliency_Maps": "Saliency maps highlight input regions that most influence the model output.",
+    "Guided_Backprop": "Guided Backprop backpropagates only positive gradients to highlight activating features.",
+    "Guided_GradCAM": "Guided GradCAM combines GradCAM with Guided Backprop for finer-grained visualizations.",
+    "ScoreCAM": "ScoreCAM uses forward activation maps and their importance scores, no gradients needed.",
+    "LayerCAM": "LayerCAM creates CAM from any layer with pixel-level localization.",
+    "Attention_Maps": "Attention maps from transformer or attention layers visualize where the model focuses.",
+    "LIME_Text": "LIME for text by masking tokens and measuring their impact on predictions.",
+    "SHAP_Text": "SHAP for text models attributes importance to tokens or subwords.",
+    "Integrated_Gradients_Text": "Integrated Gradients applied to text embeddings for token attribution.",
+    "Attention_Weights": "Attention weights from transformer models show which tokens influence outputs.",
+    "Gradient_Text": "Gradient-based attribution for text via gradient magnitude per token.",
+    "InputXGradient_Text": "Input×Gradient attribution for text inputs.",
+    "DeepLIFT_Text": "DeepLIFT assigns importance by comparing activations to a reference input.",
+    "Occlusion_Text": "Occlusion measures importance by replacing tokens and observing prediction change.",
+    "Shapley_Sampling_Text": "Shapley value estimation via sampling for text feature importance.",
+    "Rationale_Extraction": "Rationale extraction identifies minimal token spans that justify predictions.",
+    "SHAP_TS": "SHAP for time series attributes importance to timesteps or features.",
+    "LIME_TS": "LIME for time series explains by perturbing segments and fitting local models.",
+    "Attention_TS": "Attention mechanisms in time series models show temporal importance.",
+    "Feature_Importance_TS": "Feature importance for time series models (e.g., tree-based).",
+    "Temporal_Attribution": "Temporal attribution assigns importance across time steps.",
+    "Integrated_Gradients_TS": "Integrated Gradients for time series inputs.",
+    "Gradient_TS": "Gradient-based attribution for time series.",
+    "Permutation_Importance_TS": "Permutation importance for time series features."
+  },
+  "xai_method_strengths": {
+    "SHAP": [
+      "Theoretically grounded",
+      "Consistent attributions",
+      "Local and global explanations"
+    ],
+    "LIME": [
+      "Model-agnostic",
+      "Intuitive",
+      "Fast for local explanations"
+    ],
+    "PFI": [
+      "Simple to implement",
+      "Model-agnostic",
+      "Global importance"
+    ],
+    "PDP": [
+      "Intuitive visualization",
+      "Shows feature effects",
+      "Model-agnostic"
+    ]
+  },
+  "xai_method_weaknesses": {
+    "SHAP": [
+      "Can be computationally expensive",
+      "Kernel SHAP may be slow"
+    ],
+    "LIME": [
+      "Sensitive to sampling",
+      "Local only",
+      "May miss global patterns"
+    ],
+    "PFI": [
+      "Correlated features can distort",
+      "Permutation can be slow"
+    ],
+    "PDP": [
+      "Assumes feature independence",
+      "Can hide interactions"
+    ]
+  }
+}

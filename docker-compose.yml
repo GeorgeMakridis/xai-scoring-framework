@@ -1,0 +1,48 @@
+services:
+  # XAI Scoring Framework Web UI
+  xai-web:
+    build: .
+    image: xai-scoring-framework
+    ports:
+      - "8501:8501"
+    environment:
+      - PORT=8501
+      - FLASK_ENV=production
+      - FLASK_APP=web_app.py
+      - FLASK_DEBUG=0
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+    command: ["python3", "web_app.py"]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # XAI Scoring Framework API
+  xai-api:
+    build: .
+    image: xai-scoring-framework
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+    command: ["python3", "-m", "uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  data:
+  logs: 

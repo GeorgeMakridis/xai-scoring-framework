@@ -1,0 +1,63 @@
+ai_model_id,ai_model,Linear,Monotone,Interaction,Robustness to Overfitting,interpretability,training_time,ai_task
+0,Linear Regression,Yes,Yes,No,Low,High,Fast,Regression
+1,Logistic Regression,No,Yes,No,Moderate,High,Fast,Classification
+2,Decision Trees,No,Some,Yes,Low,High,Fast,Classification
+3,Decision Trees,No,Some,Yes,Low,High,Fast,Regression
+4,RuleFit,Yes,No,Yes,Moderate,Moderate,Moderate,Classification
+5,RuleFit,Yes,No,Yes,Moderate,Moderate,Moderate,Regression
+6,Naïve Bayes,No,Yes,No,Moderate,High,Fast,Classification
+7,KNN,No,No,No,Low,Low,Slow,Classification
+8,KNN,No,No,No,Low,Low,Slow,Regression
+9,Random Forests,No,Varies,Yes,High,Moderate,Moderate,Classification
+10,Random Forests,No,Varies,Yes,High,Moderate,Moderate,Regression
+11,GBM (Gradient Boosting Machine),No,Varies,Yes,High,Moderate,Slow,Classification
+12,GBM (Gradient Boosting Machine),No,Varies,Yes,High,Moderate,Slow,Regression
+13,AdaBoost,No,Varies,Yes,High,Moderate,Moderate,Classification
+14,AdaBoost,No,Varies,Yes,High,Moderate,Moderate,Regression
+15,Stacking,Varies,Varies,Yes,High,Low,Slow,Classification
+16,Stacking,Varies,Varies,Yes,High,Low,Slow,Regression
+17,Bagging,No,Varies,Yes,High,Moderate,Moderate,Classification
+18,Bagging,No,Varies,Yes,High,Moderate,Moderate,Regression
+19,SVM,No,No,Yes,Moderate,Low,Slow,Classification
+20,SVM,No,No,Yes,Moderate,Low,Slow,Regression
+21,CNN,No,No,Yes,High,Low,Slow,Image Classification
+22,CNN,No,No,Yes,High,Low,Slow,Regression
+23,RNN,No,No,Yes,Moderate to High,Low,Slow,Sequence Prediction
+24,RNN,No,No,Yes,Moderate to High,Low,Slow,Regression
+25,XGBoost,No,Varies,Yes,High,Moderate,Moderate,Classification
+26,XGBoost,No,Varies,Yes,High,Moderate,Moderate,Regression
+27,LightGBM,No,Varies,Yes,High,Moderate,Fast,Classification
+28,LightGBM,No,Varies,Yes,High,Moderate,Fast,Regression
+29,CATBoost,No,Varies,Yes,High,Moderate,Moderate,Classification
+30,CATBoost,No,Varies,Yes,High,Moderate,Moderate,Regression
+31,Elastic Net,Yes,Yes,No,Moderate,High,Fast,Regression
+32,LASSO,Yes,Yes,No,Moderate,High,Fast,Regression
+33,Ridge Regression,Yes,Yes,No,Moderate,High,Fast,Regression
+34,ResNet18,No,No,Yes,Moderate,Medium,Moderate,Classification
+35,ResNet50,No,No,Yes,Moderate,Medium,Moderate,Classification
+36,MobileNetV2,No,No,Yes,Moderate,Medium,Moderate,Classification
+37,EfficientNet_B0,No,No,Yes,Moderate,Medium,Moderate,Classification
+38,ViT_Base,No,No,Yes,Moderate,Medium,Moderate,Classification
+39,DenseNet121,No,No,Yes,Moderate,Medium,Moderate,Classification
+40,InceptionV3,No,No,Yes,Moderate,Medium,Moderate,Classification
+41,VGG16,No,No,Yes,Moderate,Medium,Moderate,Classification
+42,SimpleCNN,No,No,Yes,Moderate,Medium,Moderate,Classification
+43,ShuffleNetV2,No,No,Yes,Moderate,Medium,Moderate,Classification
+44,BERT_base,No,No,Yes,Moderate,Medium,Moderate,Classification
+45,DistilBERT,No,No,Yes,Moderate,Medium,Moderate,Classification
+46,RoBERTa,No,No,Yes,Moderate,Medium,Moderate,Classification
+47,ALBERT,No,No,Yes,Moderate,Medium,Moderate,Classification
+48,BiLSTM,No,No,Yes,Moderate,Medium,Moderate,Classification
+49,LSTM,No,No,Yes,Moderate,Medium,Moderate,Classification
+50,CNN_Text,No,No,Yes,Moderate,Medium,Moderate,Classification
+51,Transformer_small,No,No,Yes,Moderate,Medium,Moderate,Classification
+52,GPT2_small,No,No,Yes,Moderate,Medium,Moderate,Classification
+53,ELECTRA,No,No,Yes,Moderate,Medium,Moderate,Classification
+54,LSTM_TS,No,No,Yes,Moderate,Medium,Moderate,Classification
+55,BiLSTM_TS,No,No,Yes,Moderate,Medium,Moderate,Classification
+56,GRU_TS,No,No,Yes,Moderate,Medium,Moderate,Classification
+57,Transformer_TS,No,No,Yes,Moderate,Medium,Moderate,Classification
+58,TCN,No,No,Yes,Moderate,Medium,Moderate,Classification
+59,CNN_1D,No,No,Yes,Moderate,Medium,Moderate,Classification
+60,XGBoost_TS,No,No,Yes,Moderate,Medium,Moderate,Classification
+61,RandomForest_TS,No,No,Yes,Moderate,Medium,Moderate,Classification

@@ -1,0 +1,369 @@
+domain_from,domain_to,relevance
+iot,iot,1.0
+healthcare,healthcare,1.0
+social science,social science,1.0
+health and medicine,health and medicine,1.0
+climate and environment,climate and environment,1.0
+autonomous_vehicles,autonomous_vehicles,1.0
+physics and chemistry,physics and chemistry,1.0
+other,other,1.0
+business,business,1.0
+general,general,1.0
+recommendation_systems,recommendation_systems,1.0
+computer science,computer science,1.0
+cybersecurity,cybersecurity,1.0
+games,games,1.0
+engineering,engineering,1.0
+biology,biology,1.0
+finance,finance,1.0
+manufacturing,manufacturing,1.0
+health and medicine,healthcare,1.0
+healthcare,health and medicine,1.0
+health,healthcare,1.0
+healthcare,health,1.0
+medicine,healthcare,1.0
+healthcare,medicine,1.0
+biology,healthcare,1.0
+healthcare,biology,1.0
+financial,finance,1.0
+finance,financial,1.0
+business,finance,1.0
+finance,business,1.0
+computer science,cybersecurity,1.0
+cybersecurity,computer science,1.0
+security,cybersecurity,1.0
+cybersecurity,security,1.0
+autonomous vehicles,autonomous_vehicles,1.0
+autonomous_vehicles,autonomous vehicles,1.0
+physics and chemistry,autonomous_vehicles,1.0
+autonomous_vehicles,physics and chemistry,1.0
+computer science,autonomous_vehicles,1.0
+autonomous_vehicles,computer science,1.0
+recommendation systems,recommendation_systems,1.0
+recommendation_systems,recommendation systems,1.0
+social science,recommendation_systems,1.0
+recommendation_systems,social science,1.0
+business,recommendation_systems,1.0
+recommendation_systems,business,1.0
+industry,manufacturing,1.0
+manufacturing,industry,1.0
+physics and chemistry,manufacturing,1.0
+manufacturing,physics and chemistry,1.0
+iot / sensors,iot,1.0
+iot,iot / sensors,1.0
+climate and environment,iot,1.0
+iot,climate and environment,1.0
+computer science,iot,1.0
+iot,computer science,1.0
+health and medicine,health,0.85
+health,health and medicine,0.85
+health and medicine,medicine,0.85
+medicine,health and medicine,0.85
+health and medicine,biology,0.85
+biology,health and medicine,0.85
+health,medicine,0.85
+medicine,health,0.85
+health,biology,0.85
+biology,health,0.85
+medicine,biology,0.85
+biology,medicine,0.85
+financial,business,0.85
+business,financial,0.85
+computer science,security,0.85
+security,computer science,0.85
+industry,physics and chemistry,0.85
+physics and chemistry,industry,0.85
+iot / sensors,climate and environment,0.85
+climate and environment,iot / sensors,0.85
+iot / sensors,computer science,0.85
+computer science,iot / sensors,0.85
+climate and environment,computer science,0.85
+computer science,climate and environment,0.85
+autonomous vehicles,physics and chemistry,0.85
+physics and chemistry,autonomous vehicles,0.85
+autonomous vehicles,computer science,0.85
+computer science,autonomous vehicles,0.85
+physics and chemistry,computer science,0.85
+computer science,physics and chemistry,0.85
+recommendation systems,social science,0.85
+social science,recommendation systems,0.85
+recommendation systems,business,0.85
+business,recommendation systems,0.85
+social science,business,0.85
+business,social science,0.85
+general,iot,0.5
+iot,general,0.5
+general,healthcare,0.5
+healthcare,general,0.5
+general,social science,0.5
+social science,general,0.5
+general,health and medicine,0.5
+health and medicine,general,0.5
+general,climate and environment,0.5
+climate and environment,general,0.5
+general,autonomous_vehicles,0.5
+autonomous_vehicles,general,0.5
+general,physics and chemistry,0.5
+physics and chemistry,general,0.5
+general,other,0.5
+other,general,0.5
+general,business,0.5
+business,general,0.5
+general,recommendation_systems,0.5
+recommendation_systems,general,0.5
+general,computer science,0.5
+computer science,general,0.5
+general,cybersecurity,0.5
+cybersecurity,general,0.5
+general,games,0.5
+games,general,0.5
+general,engineering,0.5
+engineering,general,0.5
+general,biology,0.5
+biology,general,0.5
+general,finance,0.5
+finance,general,0.5
+general,manufacturing,0.5
+manufacturing,general,0.5
+iot,healthcare,0.3
+iot,social science,0.3
+iot,health and medicine,0.3
+iot,autonomous_vehicles,0.3
+iot,physics and chemistry,0.3
+iot,other,0.3
+iot,business,0.3
+iot,recommendation_systems,0.3
+iot,cybersecurity,0.3
+iot,games,0.3
+iot,engineering,0.3
+iot,biology,0.3
+iot,finance,0.3
+iot,manufacturing,0.3
+healthcare,iot,0.3
+healthcare,social science,0.3
+healthcare,climate and environment,0.3
+healthcare,autonomous_vehicles,0.3
+healthcare,physics and chemistry,0.3
+healthcare,other,0.3
+healthcare,business,0.3
+healthcare,recommendation_systems,0.3
+healthcare,computer science,0.3
+healthcare,cybersecurity,0.3
+healthcare,games,0.3
+healthcare,engineering,0.3
+healthcare,finance,0.3
+healthcare,manufacturing,0.3
+social science,iot,0.3
+social science,healthcare,0.3
+social science,health and medicine,0.3
+social science,climate and environment,0.3
+social science,autonomous_vehicles,0.3
+social science,physics and chemistry,0.3
+social science,other,0.3
+social science,computer science,0.3
+social science,cybersecurity,0.3
+social science,games,0.3
+social science,engineering,0.3
+social science,biology,0.3
+social science,finance,0.3
+social science,manufacturing,0.3
+health and medicine,iot,0.3
+health and medicine,social science,0.3
+health and medicine,climate and environment,0.3
+health and medicine,autonomous_vehicles,0.3
+health and medicine,physics and chemistry,0.3
+health and medicine,other,0.3
+health and medicine,business,0.3
+health and medicine,recommendation_systems,0.3
+health and medicine,computer science,0.3
+health and medicine,cybersecurity,0.3
+health and medicine,games,0.3
+health and medicine,engineering,0.3
+health and medicine,finance,0.3
+health and medicine,manufacturing,0.3
+climate and environment,healthcare,0.3
+climate and environment,social science,0.3
+climate and environment,health and medicine,0.3
+climate and environment,autonomous_vehicles,0.3
+climate and environment,physics and chemistry,0.3
+climate and environment,other,0.3
+climate and environment,business,0.3
+climate and environment,recommendation_systems,0.3
+climate and environment,cybersecurity,0.3
+climate and environment,games,0.3
+climate and environment,engineering,0.3
+climate and environment,biology,0.3
+climate and environment,finance,0.3
+climate and environment,manufacturing,0.3
+autonomous_vehicles,iot,0.3
+autonomous_vehicles,healthcare,0.3
+autonomous_vehicles,social science,0.3
+autonomous_vehicles,health and medicine,0.3
+autonomous_vehicles,climate and environment,0.3
+autonomous_vehicles,other,0.3
+autonomous_vehicles,business,0.3
+autonomous_vehicles,recommendation_systems,0.3
+autonomous_vehicles,cybersecurity,0.3
+autonomous_vehicles,games,0.3
+autonomous_vehicles,engineering,0.3
+autonomous_vehicles,biology,0.3
+autonomous_vehicles,finance,0.3
+autonomous_vehicles,manufacturing,0.3
+physics and chemistry,iot,0.3
+physics and chemistry,healthcare,0.3
+physics and chemistry,social science,0.3
+physics and chemistry,health and medicine,0.3
+physics and chemistry,climate and environment,0.3
+physics and chemistry,other,0.3
+physics and chemistry,business,0.3
+physics and chemistry,recommendation_systems,0.3
+physics and chemistry,cybersecurity,0.3
+physics and chemistry,games,0.3
+physics and chemistry,engineering,0.3
+physics and chemistry,biology,0.3
+physics and chemistry,finance,0.3
+other,iot,0.3
+other,healthcare,0.3
+other,social science,0.3
+other,health and medicine,0.3
+other,climate and environment,0.3
+other,autonomous_vehicles,0.3
+other,physics and chemistry,0.3
+other,business,0.3
+other,recommendation_systems,0.3
+other,computer science,0.3
+other,cybersecurity,0.3
+other,games,0.3
+other,engineering,0.3
+other,biology,0.3
+other,finance,0.3
+other,manufacturing,0.3
+business,iot,0.3
+business,healthcare,0.3
+business,health and medicine,0.3
+business,climate and environment,0.3
+business,autonomous_vehicles,0.3
+business,physics and chemistry,0.3
+business,other,0.3
+business,computer science,0.3
+business,cybersecurity,0.3
+business,games,0.3
+business,engineering,0.3
+business,biology,0.3
+business,manufacturing,0.3
+recommendation_systems,iot,0.3
+recommendation_systems,healthcare,0.3
+recommendation_systems,health and medicine,0.3
+recommendation_systems,climate and environment,0.3
+recommendation_systems,autonomous_vehicles,0.3
+recommendation_systems,physics and chemistry,0.3
+recommendation_systems,other,0.3
+recommendation_systems,computer science,0.3
+recommendation_systems,cybersecurity,0.3
+recommendation_systems,games,0.3
+recommendation_systems,engineering,0.3
+recommendation_systems,biology,0.3
+recommendation_systems,finance,0.3
+recommendation_systems,manufacturing,0.3
+computer science,healthcare,0.3
+computer science,social science,0.3
+computer science,health and medicine,0.3
+computer science,other,0.3
+computer science,business,0.3
+computer science,recommendation_systems,0.3
+computer science,games,0.3
+computer science,engineering,0.3
+computer science,biology,0.3
+computer science,finance,0.3
+computer science,manufacturing,0.3
+cybersecurity,iot,0.3
+cybersecurity,healthcare,0.3
+cybersecurity,social science,0.3
+cybersecurity,health and medicine,0.3
+cybersecurity,climate and environment,0.3
+cybersecurity,autonomous_vehicles,0.3
+cybersecurity,physics and chemistry,0.3
+cybersecurity,other,0.3
+cybersecurity,business,0.3
+cybersecurity,recommendation_systems,0.3
+cybersecurity,games,0.3
+cybersecurity,engineering,0.3
+cybersecurity,biology,0.3
+cybersecurity,finance,0.3
+cybersecurity,manufacturing,0.3
+games,iot,0.3
+games,healthcare,0.3
+games,social science,0.3
+games,health and medicine,0.3
+games,climate and environment,0.3
+games,autonomous_vehicles,0.3
+games,physics and chemistry,0.3
+games,other,0.3
+games,business,0.3
+games,recommendation_systems,0.3
+games,computer science,0.3
+games,cybersecurity,0.3
+games,engineering,0.3
+games,biology,0.3
+games,finance,0.3
+games,manufacturing,0.3
+engineering,iot,0.3
+engineering,healthcare,0.3
+engineering,social science,0.3
+engineering,health and medicine,0.3
+engineering,climate and environment,0.3
+engineering,autonomous_vehicles,0.3
+engineering,physics and chemistry,0.3
+engineering,other,0.3
+engineering,business,0.3
+engineering,recommendation_systems,0.3
+engineering,computer science,0.3
+engineering,cybersecurity,0.3
+engineering,games,0.3
+engineering,biology,0.3
+engineering,finance,0.3
+engineering,manufacturing,0.3
+biology,iot,0.3
+biology,social science,0.3
+biology,climate and environment,0.3
+biology,autonomous_vehicles,0.3
+biology,physics and chemistry,0.3
+biology,other,0.3
+biology,business,0.3
+biology,recommendation_systems,0.3
+biology,computer science,0.3
+biology,cybersecurity,0.3
+biology,games,0.3
+biology,engineering,0.3
+biology,finance,0.3
+biology,manufacturing,0.3
+finance,iot,0.3
+finance,healthcare,0.3
+finance,social science,0.3
+finance,health and medicine,0.3
+finance,climate and environment,0.3
+finance,autonomous_vehicles,0.3
+finance,physics and chemistry,0.3
+finance,other,0.3
+finance,recommendation_systems,0.3
+finance,computer science,0.3
+finance,cybersecurity,0.3
+finance,games,0.3
+finance,engineering,0.3
+finance,biology,0.3
+finance,manufacturing,0.3
+manufacturing,iot,0.3
+manufacturing,healthcare,0.3
+manufacturing,social science,0.3
+manufacturing,health and medicine,0.3
+manufacturing,climate and environment,0.3
+manufacturing,autonomous_vehicles,0.3
+manufacturing,other,0.3
+manufacturing,business,0.3
+manufacturing,recommendation_systems,0.3
+manufacturing,computer science,0.3
+manufacturing,cybersecurity,0.3
+manufacturing,games,0.3
+manufacturing,engineering,0.3
+manufacturing,biology,0.3
+manufacturing,finance,0.3

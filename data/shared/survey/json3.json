@@ -1,0 +1,94 @@
+{
+  "xai_usage_in_industries": {
+    "healthcare": {
+      "SHAP": 1.2,
+      "LIME": 0.9,
+      "PFI": 0.9,
+      "PDP": 0.9
+    },
+    "health and medicine": {
+      "SHAP": 1.2,
+      "LIME": 0.9,
+      "PFI": 0.9,
+      "PDP": 0.9
+    },
+    "health": {
+      "SHAP": 1.2,
+      "LIME": 0.9,
+      "PFI": 0.9,
+      "PDP": 0.9
+    },
+    "finance": {
+      "SHAP": 0.95,
+      "LIME": 0.95,
+      "PFI": 0.95,
+      "PDP": 1.1
+    },
+    "financial": {
+      "SHAP": 0.95,
+      "LIME": 0.95,
+      "PFI": 0.95,
+      "PDP": 1.1
+    },
+    "manufacturing": {
+      "SHAP": 0.92,
+      "LIME": 1.15,
+      "PFI": 0.92,
+      "PDP": 0.92
+    },
+    "industry": {
+      "SHAP": 0.92,
+      "LIME": 1.15,
+      "PFI": 0.92,
+      "PDP": 0.92
+    },
+    "cybersecurity": {
+      "SHAP": 0.95,
+      "LIME": 1.1,
+      "PFI": 0.95,
+      "PDP": 0.95
+    },
+    "autonomous_vehicles": {
+      "SHAP": 1.1,
+      "LIME": 0.95,
+      "PFI": 0.95,
+      "PDP": 0.95
+    },
+    "autonomous vehicles": {
+      "SHAP": 1.1,
+      "LIME": 0.95,
+      "PFI": 0.95,
+      "PDP": 0.95
+    },
+    "recommendation_systems": {
+      "SHAP": 0.98,
+      "LIME": 0.98,
+      "PFI": 0.98,
+      "PDP": 1.05
+    },
+    "recommendation systems": {
+      "SHAP": 0.98,
+      "LIME": 0.98,
+      "PFI": 0.98,
+      "PDP": 1.05
+    },
+    "iot": {
+      "SHAP": 0.97,
+      "LIME": 0.97,
+      "PFI": 1.08,
+      "PDP": 0.97
+    },
+    "iot / sensors": {
+      "SHAP": 0.97,
+      "LIME": 0.97,
+      "PFI": 1.08,
+      "PDP": 0.97
+    },
+    "general": {
+      "SHAP": 1.0,
+      "LIME": 1.0,
+      "PFI": 1.0,
+      "PDP": 1.0
+    }
+  }
+}

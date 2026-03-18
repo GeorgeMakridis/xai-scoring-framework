@@ -1,0 +1,166 @@
+dataset_id,ai_model_id,Accuracy,Precision
+53,GBoost Classification,87.224,83.383
+53,Support Vector Classification,79.86,88.032
+53,Random Forest Classification,85.216,80.246
+53,Neural Network Classification,78.386,80.255
+53,Logistic Regression,79.172,74.986
+45,GBoost Classification,81.579,83.185
+45,Support Vector Classification,65.789,71.458
+45,Random Forest Classification,80.263,82.2
+45,Neural Network Classification,78.947,82.372
+45,Logistic Regression,81.579,83.185
+2,GBoost Classification,87.224,83.383
+2,Support Vector Classification,79.86,88.032
+2,Random Forest Classification,85.216,80.246
+2,Neural Network Classification,78.386,80.255
+2,Logistic Regression,79.78,74.986
+109,GBoost Classification,97.778,96.97
+109,Support Vector Classification,80.0,89.286
+109,Random Forest Classification,100.0,100.0
+109,Neural Network Classification,97.778,98.333
+109,Logistic Regression,93.333,92.854
+19,GBoost Classification,98.843,93.348
+19,Support Vector Classification,96.296,90.897
+19,Random Forest Classification,92.824,76.201
+19,Neural Network Classification,98.38,96.052
+19,Logistic Regression,90.278,84.652
+144,GBoost Classification,74.8,70.042
+144,Support Vector Classification,70.4,66.581
+144,Random Forest Classification,78.0,76.179
+144,Neural Network Classification,64.4,59.055
+144,Logistic Regression,75.6,71.216
+94,GBoost Classification,95.917,95.675
+94,Support Vector Classification,70.2,71.9
+94,Random Forest Classification,94.874,94.832
+94,Neural Network Classification,91.486,91.004
+94,Logistic Regression,91.92,91.645
+15,GBoost Classification,95.429,94.205
+15,Support Vector Classification,96.571,95.463
+15,Random Forest Classification,96.571,95.463
+15,Neural Network Classification,96.571,95.463
+15,Logistic Regression,96.0,94.964
+14,GBoost Classification,73.611,64.167
+14,Support Vector Classification,75.0,66.667
+14,Random Forest Classification,77.778,74.945
+14,Neural Network Classification,66.667,54.386
+14,Logistic Regression,68.056,52.097
+27,GBoost Classification,87.283,87.975
+27,Support Vector Classification,65.318,67.184
+27,Random Forest Classification,86.705,86.678
+27,Neural Network Classification,65.896,66.7
+27,Logistic Regression,86.127,86.151
+42,GBoost Classification,85.185,93.825
+42,Support Vector Classification,40.741,6.79
+42,Random Forest Classification,83.333,76.795
+42,Neural Network Classification,22.222,5.98
+42,Logistic Regression,64.815,61.627
+80,GBoost Classification,96.16,96.297
+80,Support Vector Classification,97.607,97.664
+80,Random Forest Classification,96.939,96.971
+80,Neural Network Classification,96.327,96.446
+80,Logistic Regression,94.88,95.041
+111,GBoost Classification,96.154,83.333
+111,Support Vector Classification,88.462,65.476
+111,Random Forest Classification,96.154,83.333
+111,Neural Network Classification,92.308,71.429
+111,Logistic Regression,92.308,83.333
+62,GBoost Classification,12.5,11.111
+62,Support Vector Classification,50.0,47.619
+62,Random Forest Classification,37.5,52.778
+62,Neural Network Classification,25.0,40.0
+62,Logistic Regression,25.0,40.0
+46,GBoost Classification,79.487,65.179
+46,Support Vector Classification,82.051,41.026
+46,Random Forest Classification,87.179,78.024
+46,Neural Network Classification,76.923,59.091
+46,Logistic Regression,79.487,65.179
+52,GBoost Classification,89.773,90.606
+52,Support Vector Classification,88.636,90.575
+52,Random Forest Classification,90.909,91.026
+52,Neural Network Classification,87.5,89.801
+52,Logistic Regression,79.545,83.333
+151,GBoost Classification,84.615,84.242
+151,Support Vector Classification,80.769,82.639
+151,Random Forest Classification,90.385,90.399
+151,Neural Network Classification,82.692,84.118
+151,Logistic Regression,76.923,77.124
+101,GBoost Classification,59.167,53.399
+101,Support Vector Classification,87.5,83.581
+101,Random Forest Classification,47.5,36.354
+101,Neural Network Classification,99.583,99.242
+101,Logistic Regression,98.75,98.176
+110,GBoost Classification,58.491,57.589
+110,Support Vector Classification,58.491,55.559
+110,Random Forest Classification,62.803,57.7
+110,Neural Network Classification,56.873,58.803
+110,Logistic Regression,52.561,46.086
+105,GBoost Classification,92.661,92.585
+105,Support Vector Classification,92.661,92.512
+105,Random Forest Classification,93.578,93.458
+105,Neural Network Classification,96.33,96.517
+105,Logistic Regression,93.578,93.596
+76,GBoost Classification,99.969,99.926
+76,Support Vector Classification,99.198,99.367
+76,Random Forest Classification,98.025,97.473
+76,Neural Network Classification,100.0,100.0
+76,Logistic Regression,92.253,91.868
+143,GBoost Classification,90.751,90.51
+143,Support Vector Classification,65.896,71.01
+143,Random Forest Classification,89.017,88.737
+143,Neural Network Classification,62.428,62.718
+143,Logistic Regression,86.127,85.849
+12,GBoost Classification,89.172,66.58
+12,Support Vector Classification,93.631,62.455
+12,Random Forest Classification,86.624,62.586
+12,Neural Network Classification,96.178,97.498
+12,Logistic Regression,91.72,94.43
+50,GBoost Classification,10.19,15.248
+50,Support Vector Classification,0.714,0.151
+50,Random Forest Classification,10.905,8.991
+50,Neural Network Classification,2.714,1.911
+50,Logistic Regression,3.81,4.1
+90,GBoost Classification,93.617,95.526
+90,Support Vector Classification,88.298,89.866
+90,Random Forest Classification,93.617,96.555
+90,Neural Network Classification,93.883,96.662
+90,Logistic Regression,92.819,96.536
+81,GBoost Classification,96.684,96.795
+81,Support Vector Classification,98.17,98.198
+81,Random Forest Classification,96.255,96.409
+81,Neural Network Classification,96.941,96.931
+81,Logistic Regression,90.48,90.947
+146,GBoost Classification,90.15,89.162
+146,Support Vector Classification,88.6,87.486
+146,Random Forest Classification,91.35,90.873
+146,Neural Network Classification,75.8,74.902
+146,Logistic Regression,78.35,75.624
+148,GBoost Classification,95.89,90.123
+148,Support Vector Classification,60.614,10.268
+148,Random Forest Classification,96.055,91.864
+148,Neural Network Classification,90.648,77.417
+148,Logistic Regression,66.91,14.44
+149,GBoost Classification,75.943,75.664
+149,Support Vector Classification,46.226,46.489
+149,Random Forest Classification,72.642,71.771
+149,Neural Network Classification,58.962,61.375
+149,Logistic Regression,67.925,67.802
+54,GBoost Classification,94.676,94.816
+54,Support Vector Classification,96.023,96.12
+54,Random Forest Classification,94.484,94.638
+54,Neural Network Classification,95.959,96.03
+54,Logistic Regression,96.023,96.085
+107,GBoost Classification,85.68,85.773
+107,Support Vector Classification,86.64,86.64
+107,Random Forest Classification,85.12,85.106
+107,Neural Network Classification,84.0,84.0
+107,Logistic Regression,87.75,87.748
+70,GBoost Classification,97.222,97.368
+70,Support Vector Classification,83.333,83.903
+70,Random Forest Classification,91.435,91.443
+70,Neural Network Classification,74.537,74.571
+70,Logistic Regression,66.204,66.254
+91,GBoost Classification,83.333,62.5
+91,Support Vector Classification,91.667,95.833
+91,Random Forest Classification,100.0,100.0
+91,Neural Network Classification,100.0,100.0
+91,Logistic Regression,100.0,100.0
