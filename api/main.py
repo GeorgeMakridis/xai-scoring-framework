@@ -55,6 +55,26 @@ app.add_middleware(
 _global_repository = None
 DATA_ROOT = "data"
 
+def _sanitize_for_json(obj):
+    """Replace NaN/inf with None so JSON responses remain valid."""
+    if isinstance(obj, dict):
+        return {k: _sanitize_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_sanitize_for_json(v) for v in obj]
+    if isinstance(obj, (int, str, bool)) or obj is None:
+        return obj
+    if isinstance(obj, (float, np.floating)):
+        if np.isnan(obj) or np.isinf(obj):
+            return None
+        return float(obj)
+    if hasattr(obj, "__float__"):
+        try:
+            f = float(obj)
+            return None if (np.isnan(f) or np.isinf(f)) else f
+        except (ValueError, TypeError):
+            return None
+    return obj
+
 @app.get("/")
 async def root():
     return {
@@ -202,14 +222,14 @@ async def score_dataset(
         recommended_ai = results_tuple[2]
         similar_datasets = results_tuple[3]
 
-        return {
+        return _sanitize_for_json({
             "success": True,
             "results": results,
             "features": features_dict,
             "recommended_method": recommended_method,
             "recommended_ai": recommended_ai,
             "similar_datasets": similar_datasets
-        }
+        })
 
     except HTTPException:
         raise
@@ -269,14 +289,14 @@ async def score_features(
             recommended_ai = None
             similar_datasets = None
         
-        return {
+        return _sanitize_for_json({
             "success": True,
             "results": results,
             "features": features,
             "recommended_method": recommended_method,
             "recommended_ai": recommended_ai,
             "similar_datasets": similar_datasets
-        }
+        })
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
